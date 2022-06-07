@@ -29,3 +29,23 @@ const alphabetPosition = (text) => {
 console.log(alphabetPosition(''));
 console.log(alphabetPosition('3y>4{8q1'));
 */
+/*
+const arrayDiff = (a, b) => {
+  if (Boolean(a.length&&b.length)) {
+    for (let i=0; i<b.length; i++) {
+      a = a.filter((n) => n!=b[i]);
+    }
+    return a;
+  } else {
+    return a;
+  }
+};
+console.log(arrayDiff([1, 4, 7], [1, 2]));
+*/
+
+/*
+const d = [':)', '))', ';~~D', ';D'];
+const countSmileys = (arr) =>
+ arr.length? arr.filter((n) => n.match(/^[^\w\)]{1,2}\)|^\W{1,2}D/)).length: 0;
+console.log(countSmileys(d));
+*/
